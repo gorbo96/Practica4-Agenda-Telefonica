@@ -17,7 +17,8 @@
 
 <p>1. Se pide desarrollar una aplicación PHP que permita implementar una agenda telefónica en donde un usuario de la aplicación podrá gestionar su información y la misma estará disponible para el público.</p>
 
-![Image 1]()
+
+![Image 1](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/1.png)
 
 <p>Por lo cuál, con base al archivo PHP (Apuntes y ejercicios) se pide realizar los siguientes ajustes</p>
 
@@ -26,21 +27,21 @@
   <li>Crear una tabla para almacenar los teléfonos de los usuarios</li>
 </ul>
 
-![Image 2]()
-![Image 3]()
+![Image 2](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/2.png)
+![Image 3](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/3.png)
 
 
 <ul>
 	<li>Los usuarios “anónimos” pueden registrarse en la aplicación a través de un formulario de creación de cuentas</li>
 </ul>
 
-![Image 1]()
+![Image 1](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/1.png)
 
 <ul>
   <li>Los usuarios “anónimos” listar los números de teléfono de un usuario usando su número de cédula o correo electrónico</li>
 </ul>
 
-![Image AJAX]()
+![Image AJAX](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/Ajax.png)
 
 <p>Un usuario puede iniciar sesión usando su correo y contraseña, y dependiendo del rol podrá:</p>
 <ul>
@@ -49,31 +50,31 @@
   <li>Los usuarios con rol de “user” pueden agregar, modificar, eliminar, buscar y listar sus teléfonos.</li>
 </ul>
 
-![Image 4]()
-![Image 5]()
-![Image 6]()
-![Image 7]()
+![Image 4](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/4.png)
+![Image 5](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/5.png)
+![Image 6](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/6.png)
+![Image 7](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/7.png)
 
 
 <p>2. La parte pública (usuario anónimos) y privada (usuario registrado) ha sido descrita en los requisitos antes planteados. Se debe generar una página con la experiencia e interfaz de usuario apropiada, como la que se </p>
 
-![Image 8]()
+![Image 8](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/8.png)
 
 <p>3. Sentencias SQL </p>
 
-![Image 9]()
+![Image 9](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/9.png)
 
 <p>4. El diagrama E-R de la solución propuesta.</p>
 
-![Image 10]()
+![Image 10](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/10.png)
 
 <p>Verificaciones de w3c HTML</p>
 
-![Image 11]()
+![Image 11](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/11.png)
 
 <p>Comprobaciones</p>
 
-![Image 12]()
+![Image 12](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/12.png)
 
 <p>URL del repositorio de la práctica <br>
 https://github.com/gorbo96/Practica4-Agenda-Telefonica</p>
@@ -93,7 +94,6 @@ https://github.com/gorbo96/Practica4-Agenda-Telefonica</p>
 </ul>
 <p>Todo esto representa un trabajo de sincronización y buen funcionamiento de cada una de las partes</p>
 <h1>Firma</h1>
+<p>Mateo Cordova</p>
 
-![Image 14]()
-
-
+![Image 14](https://github.com/gorbo96/Practica4-Agenda-Telefonica/blob/master/Informe/imagen14.png)
