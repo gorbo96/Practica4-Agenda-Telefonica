@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 23, 2020, 7:19:00 PM
+    Author     : BMGPC
+*/
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    width: 100%;    
+    border: 2px solid #b19c43;
+    border-radius: 3px;    
+}
+header ,header * {
+    float: left;    
+    background-color: #fedf60;
+}
+header * {
+    display: inline-block;
+}
+header img {
+    width: 3%;
+    padding: 3%;
+}
+header h1 {
+    width: 55%;
+    text-align: center;
+    padding: 3.3% 0% 3.3%;
+    margin: 0%;    
+}
+section.asociados {
+    width: 100%;
+    float: right;
+}
+img.Icono {
+    width: 10%;
+    padding: 0% 7% 0%;    
+}
+section.nosotros {
+    float: left;
+}
+section.nosotros article {
+    float: right;
+    width: 85%;
+}
+section.nosotros img {
+    float: left;
+    width: 10%;
+    padding: 2%;
+}
+form{
+    width: 70%;
+    float: left;
+    margin-left: 15%;
+}
+form label{
+    width: 100%;    
+    padding: 2% 0% 2%;
+    float: left;
+}
+form input{
+    width: 100%;
+    margin-left: 1%;
+    padding: 1% 0% 1%;
+    float: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #b19c43;    
+}
+button {
+    background-color: #e4c856;
+    font-size: larger;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid #e4c856;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 1%;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>Prueba de rama</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo1.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="JS/jspt1.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/icono.png" alt="Logo" />
+        <h1>Guia telefonica</h1>
+        <img src="imagenes/usuario.png" alt="usuario" />
+        <img src="imagenes/llamada.png" alt="llamada" />
+        <img src="imagenes/correo.png" alt="correo" />
+        <img src="imagenes/editar.png" alt="editar" />
+    </header>
+    <section class="formulario">
+        <h2>Ingreso al Sistema</h2>
+        <form id="formulario01" method="POST" action="../controladores/login.php">
+            <label>Correo:</label>
+            <input type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required value=""
+                oninput="return validarCorreo()" />
+            <span id="mensajeEmail" class="error"></span>
+            <label>Contraseña:</label>
+            <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contaseña" required />
+            <div>
+                <button type="submit" id="ingreso" name="ingreso">Ingresar</button>
+                <button type="reset" id="cancelar" name="cancelar">Limpiar</button>
+            </div>
+        </form>
+    </section>
+    <section class="asociados">
+        <h2>Correo Electronico Asociados</h2>
+        <img src="imagenes/gmail.png" alt="Gmail" class="Icono" />
+        <img src="imagenes/yahoo.png" alt="Yahoo" class="Icono" />
+        <img src="imagenes/outlook.png" alt="Outlook" class="Icono" />
+        <img src="imagenes/gmx.png" alt="GMX" class="Icono" />
+    </section>
+    <section class="asociados">
+        <h2>Operadoras Asociadas</h2>
+        <img src="imagenes/claro.jfif" alt="Gmail" class="Icono" />
+        <img src="imagenes/movistar.png" alt="Gmail" class="Icono" />
+        <img src="imagenes/cnt.png" alt="Gmail" class="Icono" />
+        <img src="imagenes/tuenti.jfif" alt="Gmail" class="Icono" />
+    </section>
+    <section class="nosotros">
+        <img src="imagenes/icono.png" alt="Logo" />
+        <article>
+            <h3>Nosotros</h3>
+            <p>Somos una pagina sin animos de lucro. Nuestros servicios son gratuitos para cualquier usuario.</p>
+        </article>
+        <article>
+            <h3>Terminos y Condiciones</h3>
+            <p>Nos reservados el derecho a proporcinar a otras instituciones, empresas, o cualquier ente la informacion
+                acerca de la informacion generada por el uso de la pagina</p>
+        </article>
+    </section>
+</body>
+
+</html>
